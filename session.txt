@@ -1,0 +1,51 @@
+Session: It is just like a cookies. Used to temprory save data into computer(Browser).
+
+Start Session:
+<?php
+session_start();
+$_SESSION['fname']="Manoj Kumar Yadav";
+?>
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <?php
+    echo "Session Created!";
+    ?>
+</body>
+</html>
+
+Display Session:
+<?php
+session_start();
+?>
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <?php
+    echo $_SESSION['fname'];
+    ?>
+</body>
+</html>
+
+Session Destroy:
+<?php
+session_start();
+session_destroy();
+echo "Session destroy.";
+?>
+
+Create a login page using session:
+Login Form:
+Dashboard:
+
+Logout:

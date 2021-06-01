@@ -1,0 +1,25 @@
+body
+{
+    padding: 0px;
+    margin: auto;
+}
+
+.bg
+{
+    background-image: url(./2750138.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 667px;
+    
+}
+.center_login
+{
+    background-color: floralwhite;
+    height: auto;
+    width: 500px;
+    margin: auto;  
+    margin-top: 50px; 
+    filter: blur();
+    
+}
